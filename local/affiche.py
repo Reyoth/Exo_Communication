@@ -1,4 +1,4 @@
-import local.ledArduino
+import ledArduino
 import dicoMatrice2D
 
 print("Quelle lettre afficher ?")
@@ -7,4 +7,4 @@ matrice = dicoMatrice2D.dico2D[lettre]
 
 for ligne in matrice:
     print(ligne)
-local.ledArduino.ledMatrice(matrice)
+ledArduino.ledMatrice(matrice)
