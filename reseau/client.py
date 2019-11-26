@@ -1,6 +1,6 @@
 import network
 
-IP = ""
+IP = "10.0.0.188"
 PORT = 1111
 
 while True:
